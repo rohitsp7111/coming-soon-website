@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veloura | Coming Soon</title>
+    <meta
+      name="description"
+      content="Luxury experiences are on the way. Discover the next chapter of refined living."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <span class="brand-mark">V</span>
+          <span class="brand-name">Veloura</span>
+        </div>
+        <nav class="top-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#launch">Launch</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Luxury redefined</p>
+          <h1>Something exceptional is on the horizon.</h1>
+          <p class="subtext">
+            We are crafting a refined digital experience for modern tastemakers —
+            thoughtfully designed, beautifully curated, and worth the wait.
+          </p>
+
+          <div class="countdown" aria-label="Countdown until launch">
+            <div class="time-box">
+              <span id="days">00</span>
+              <label>Days</label>
+            </div>
+            <div class="time-box">
+              <span id="hours">00</span>
+              <label>Hours</label>
+            </div>
+            <div class="time-box">
+              <span id="minutes">00</span>
+              <label>Minutes</label>
+            </div>
+            <div class="time-box">
+              <span id="seconds">00</span>
+              <label>Seconds</label>
+            </div>
+          </div>
+
+          <form class="signup-form" id="signupForm">
+            <label class="sr-only" for="email">Email address</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your email"
+              aria-label="Email address"
+              required
+            />
+            <button type="submit">Notify Me</button>
+          </form>
+
+          <p class="form-message" id="formMessage" aria-live="polite"></p>
+        </div>
+
+        <div class="hero-visual" aria-label="Luxury brand illustration">
+          <div class="glass-card card-main">
+            <div class="card-head">
+              <span class="status-dot"></span>
+              <span>Private Preview</span>
+            </div>
+            <div class="card-figure">
+              <div class="orb orb-one"></div>
+              <div class="orb orb-two"></div>
+            </div>
+            <div class="card-meta">
+              <span>Spring Collection</span>
+              <strong>2026</strong>
+            </div>
+          </div>
+          <div class="floating-tag tag-one">Crafted to impress</div>
+          <div class="floating-tag tag-two">Limited release</div>
+        </div>
+      </main>
+
+      <section class="info-strip" id="about">
+        <div>
+          <span>Graceful design</span>
+          <strong>Minimal. Premium. Intentional.</strong>
+        </div>
+        <div>
+          <span>Curated experiences</span>
+          <strong>Luxury that feels personal.</strong>
+        </div>
+        <div>
+          <span>Launching soon</span>
+          <strong>For a select circle.</strong>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
